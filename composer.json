@@ -1,0 +1,28 @@
+{
+    "name": "itx/orm",
+    "description": "Itx Orm",
+    "keywords": ["Orm", "database"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmad Arafa",
+            "email": "hello@ahmadarafa.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0" ,
+        "doctrine/inflector" : ">=2.0.1" ,
+        "robmorgan/phinx": "^0.10.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Itx\\Orm\\": "src/" 
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.2-dev"
+        }
+    },
+    "minimum-stability" : "dev"
+}
